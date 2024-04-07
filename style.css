@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Color negro */
+    color: #ffffff; /* Color del texto */
+}
+
+
+header {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Estilos anteriores... */
+
+#btn-login {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color azul */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    right: 10px; /* Distancia desde la parte derecha */
+}
+body {
+    font-family: Arial, sans-serif; /* Fuente */
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button,
+#btn-login {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color azul */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover,
+#btn-login:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center; /* Centrar contenido del pie de página */
+}
+
+.politica-privacidad {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5); /* Letras blancas semitransparentes */
+}
+/* Estilos existentes aquí */
+
+#btn-login {
+    text-decoration: none; /* Eliminar subrayado */
+}
+
+footer {
+    margin-top: 20px; /* Ajustar margen superior */
+}
+
+.about-us {
+    margin-top: 20px; /* Espacio entre la política de privacidad y el nuevo contenido */
+}
+/* Estilos existentes aquí */
+
+#btn-login {
+    text-decoration: none; /* Eliminar subrayado */
+    color: #fff; /* Color blanco */
+}
+
+/* Estilos existentes aquí */
+
+.btn-login {
+    display: block; /* Convertido en bloque para aplicar estilos */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin: 20px auto; /* Centra horizontalmente y añade margen arriba y abajo */
+    padding: 10px 20px; /* Añade relleno al botón */
+    border: none; /* Elimina borde */
+    background-color: #000000; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Elimina subrayado */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    transition: background-color 0.3s; /* Agrega transición para suavizar cambios de color de fondo */
+}
+
+.btn-login:hover {
+    background-color: #0056b3; /* Cambia color de fondo al pasar el ratón */
+}
+
+.arrow {
+    position: absolute;
+    top: -40px; /* Posiciona la flecha encima del footer */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 8px;
+    border-bottom-color: #fff; /* Color de la flecha */
+}
+
+.about-us {
+    display: none; /* Oculta el texto al principio */
+    position: absolute;
+    top: 40px; /* Alinea el texto con el botón */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra */
+    width: 80%; /* Anchura */
+    text-align: center; /* Centra el texto */
+}
+
+.about-us p {
+    margin: 0; /* Elimina margen */
+}
+/* Estilos existentes aquí */
+
+.btn-arrow {
+    position: absolute;
+    bottom: calc(100% + 20px); /* Posiciona el botón encima de la política de privacidad */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 8px;
+    border-top-color: #ffffff; /* Color de la flecha */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.about-us {
+    text-align: center; /* Centra el texto */
+}
+/* Estilos existentes aquí */
+
+.btn-arrow {
+    position: absolute;
+    top: -40px; /* Posiciona el botón encima del footer */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    border-width: 8px;
+    border-bottom-color: #ffffff; /* Color de la flecha */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.about-us {
+    text-align: center; /* Centra el texto */
+}
+body {
+    background-image: url('Diseño\ sin\ título\ \(1\).png'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
